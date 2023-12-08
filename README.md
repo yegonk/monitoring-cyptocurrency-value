@@ -8,8 +8,8 @@ import java.util.TimerTask;
 
 public class CryptoNotifier {
 
-    private static final String API_KEY = "YOUR_COINBASE_PRO_API_KEY";
-    private static final String API_SECRET = "YOUR_COINBASE_PRO_API_SECRET";
+    private static final String API_KEY = "YOUR_worldcoin_PRO_API_KEY";
+    private static final String API_SECRET = "YOUR_worldcoin_PRO_API_SECRET";
     private static final String EMAIL_USERNAME = "YOUR_EMAIL@gmail.com";
     private static final String EMAIL_PASSWORD = "YOUR_EMAIL_PASSWORD";
     private static final String TO_EMAIL = "INVESTOR_EMAIL@gmail.com";
@@ -32,7 +32,7 @@ public class CryptoNotifier {
         }
 
         private double getCryptoPrice() {
-            // Implement logic to fetch cryptocurrency price from Coinbase Pro API
+            // Implement logic to fetch cryptocurrency price from worldcoin Pro API
             // Use API_KEY and API_SECRET for authentication
             // Return the current cryptocurrency price
             // Example: return CoinbaseProApi.getPrice(CRYPTO_SYMBOL, API_KEY, API_SECRET);
